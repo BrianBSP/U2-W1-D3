@@ -8,18 +8,18 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .card {
-  width: 400px;
+  width: 360px;
   height: 420px;
   margin: 0 auto;
   background-color: antiquewhite;
   border-radius: 60px 60px 60px 60px;
 }
 .img {
-  width: 400px;
+  width: 360px;
   margin: auto;
 }
 .img img {
-  width: 400px;
+  width: 360px;
   border-radius: 60px 60px 0 0;
 }
 .container {
@@ -37,7 +37,7 @@ body {
 .btn {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
 }
 .flex {
   width: 120px;
