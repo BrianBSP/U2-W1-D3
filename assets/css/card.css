@@ -9,7 +9,7 @@ body {
 }
 .card {
   width: 360px;
-  height: 420px;
+  height: 400px;
   margin: 0 auto;
   background-color: antiquewhite;
   border-radius: 60px 60px 60px 60px;
@@ -40,14 +40,20 @@ body {
   padding: 5px;
 }
 .flex {
-  width: 120px;
+  width: 150px;
   height: 90px;
 }
 .flex p {
   font-size: 1rem;
   margin: 5px;
+  padding-top: 10px;
+}
+.flex:nth-of-type(2) p {
+  margin: 25px;
+  padding-left: 55px;
 }
 .flex h3 {
   font-size: 1rem;
   margin: 5px;
+  padding-top: 10px;
 }
