@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+  width: 400px;
+  height: 420px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border-radius: 60px 60px 60px 60px;
+}
+.img {
+  width: 400px;
+  margin: auto;
+}
+.img img {
+  width: 400px;
+  border-radius: 60px 60px 0 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.btn button {
+  width: 250px;
+  background-color: rgba(255, 166, 0, 0.417);
+  color: rgba(165, 107, 0, 0.551);
+  border: 1px solid rgba(165, 107, 0, 0.551);
+  border-radius: 45px;
+  font-size: 2rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.flex {
+  width: 120px;
+  height: 90px;
+}
+.flex p {
+  font-size: 1rem;
+  margin: 5px;
+}
+.flex h3 {
+  font-size: 1rem;
+  margin: 5px;
+}
