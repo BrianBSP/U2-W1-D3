@@ -18,16 +18,17 @@ nav {
   width: 45px;
   height: 45px;
 }
+
 .navBar {
   width: 150px;
   height: 50px;
   background-color: rgba(255, 166, 0, 0.417);
-  border-radius: 50%;
+  border-radius: 110px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 1.4rem;
 }
 /* .navBar:not(3) {
   margin-top: 1rem;
@@ -41,6 +42,9 @@ nav {
   justify-content: center;
   align-items: center;
   margin-top: 0.1rem;
+}
+.navBar:nth-of-type(3) span {
+  margin-left: 15px;
 }
 /* .navBar span {
   inset: 0;
